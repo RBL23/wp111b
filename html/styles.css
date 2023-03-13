@@ -8,8 +8,6 @@ h1{
     width:92%;
     height:auto;
     background-color:antiquewhite;
-    border-width:2px brown;
-    box-sizing:border-box;
     text-align:center;
     margin-top:3%;
     margin-left:3%;
@@ -41,4 +39,7 @@ h3{
 }
 button{
     margin-bottom:2%
+}
+main{
+    align-self:center;
 }
