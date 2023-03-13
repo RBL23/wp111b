@@ -1,20 +1,24 @@
 body{
     background-color: aquamarine;
 }
+h1{
+    margin-top:20px;
+}
 .form{
-    width:auto;
+    width:92%;
+    height:auto;
     background-color:antiquewhite;
-    padding:10px;
-    border:2px brown;
+    padding-left:10px;
+    padding-right:10px;
+    border-width:2px brown;
     text-align:center;
     margin-top:50px;
     margin-left:50px;
     margin-right:50px;
-    padding-left:100px;
 }
 input{
     text-align:left;
-    box-sizing:content-box;
+    box-sizing:border-box;
     padding:15px;
 }
 ::placeholder{
