@@ -8,8 +8,6 @@ h1{
     width:92%;
     height:auto;
     background-color:antiquewhite;
-    padding-left:10px;
-    padding-right:10px;
     border-width:2px brown;
     text-align:center;
     margin-top:50px;
@@ -17,12 +15,14 @@ h1{
     margin-right:50px;
 }
 input{
+    size:80%;
     text-align:left;
-    box-sizing:border-box;
+    box-sizing:content-box;
     padding:15px;
 }
 ::placeholder{
     margin-left:10px;
+    margin-right:10px;
     margin-top: 5px;
     margin-bottom:5px;
 }
