@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Introduction Form</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="form">
+        <main>
+            <h1>Please fill in the form below!</h1>
+            <hr>
+            <section>
+                <form>
+                <h2>
+                <p><input type="text" name="Name" placeholder="Name" size="100" required></p>
+                <p><input type="text" name="Username" placeholder="Username or Email" size="100" required></p>
+                <p><input type="password" name="Password" placeholder="Password" size="100" required></p>
+                <p><input type="text" name="PhoneNumber" placeholder="Phone Number Ex. 0987-654-321" size="100" required></p>
+                <p><input type="text" name="Birthday" placeholder="Birthday Ex. yyyy/mm/dd" size="100" required></p>
+                </h2>
+                <h3>
+                    <label for="gender">Gender: </label>
+                <select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <label for="bloodtype">Blood Type: </label>
+                <select name="bloodtype" id="bloodtype">
+                    <option value="A" selected>A</option>
+                    <option value="B">B</option>
+                    <option value="AB">AB</option>
+                    <option value="O">O</option>
+                </select>
+                </h3>
+                <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

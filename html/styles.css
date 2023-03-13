@@ -1,0 +1,37 @@
+body{
+    background-color: aquamarine;
+}
+.form{
+    width:auto;
+    background-color:antiquewhite;
+    padding:10px;
+    border:2px brown;
+    text-align:center;
+    margin-top:50px;
+    margin-left:50px;
+    margin-right:50px;
+    padding-left:100px;
+}
+input{
+    text-align:left;
+    box-sizing:content-box;
+    padding:15px;
+}
+::placeholder{
+    margin-left:10px;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+legend{
+    text-align: left;
+}
+fieldset{
+    width: 100px;
+
+}
+.gender{
+    font-size:14;
+}
+h3{
+    table-layout:fixed;
+}
