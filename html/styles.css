@@ -31,10 +31,9 @@ input{
 legend{
     text-align: left;
 }
-.gender{
-    font-size:14;
-}
 h3{
+    font-size:15px;
+    size-adjust:inherit;
     table-layout:fixed;
 }
 button{
